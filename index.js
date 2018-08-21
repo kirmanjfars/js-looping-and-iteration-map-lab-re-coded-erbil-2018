@@ -1,5 +1,6 @@
 // Code your solution in this file.
 
+const drivers = ['Bobby Smith', 'Sammy Watkins', 'Sally Jenkins', 'Annette Sawyer', 'Sarah Hucklebee', 'bobby ridge'];
 
 function lowerCaseDrivers(drivers){
   
@@ -22,3 +23,4 @@ function nameToAttributes(drivers){
   });
   
 }
+
