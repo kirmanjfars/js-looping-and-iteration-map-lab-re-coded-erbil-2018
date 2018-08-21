@@ -29,7 +29,7 @@ function attributesToPhrase(drivers){
   
   return drivers.map(function(s){
     
-    return s.name + "is from"+ s.homeTown;
+    return s.name + " is from "+ s.homeTown;
     
   })
   
