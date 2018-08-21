@@ -14,7 +14,7 @@ function nameToAttributes(drivers){
   
   return drivers.map(function(s){
       let temp = s.indexOf(s);
-      let str1 = s.slice(0, temp-1);
+      let str1 = s.slice(0, temp);
       let str2 = s.slice(temp+1, s.length);
       
   });
