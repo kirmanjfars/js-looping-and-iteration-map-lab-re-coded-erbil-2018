@@ -17,6 +17,8 @@ function nameToAttributes(drivers){
       let str1 = s.slice(0, temp);
       let str2 = s.slice(temp+1, s.length);
       
+      return s={ "firstName" : str1, "lastName":str2 };
+      
   });
   
 }
